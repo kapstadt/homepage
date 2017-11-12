@@ -1,0 +1,171 @@
+# Site settings
+baseurl = "kapstadt.github.io/de"
+
+title = "Kapstadt"
+theme = "hugo-agency-theme"
+
+copyright = "Published under the Apache License 2.0."
+
+# Enable Google Analytics by providing your tracking code.
+#googleAnalytics = ""
+
+DefaultContentLanguage = "en"
+
+[languages.de]
+  weight = 1
+  title = "Beispiel Seite"
+  copyright = "Veröffentlicht unter der Apache Lizenz 2.0."
+
+[languages.en]
+  weight = 2
+  title = "Example Page"
+
+
+# Some general Theme information:
+#
+# Almost all fields are markdown enabled.
+
+[params]
+  name = "Author name"
+  description = "Site description"
+
+  # Optional list of custom assets for css and js.
+  # Asset links are relative to 'static/'.
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Custom icons via your own font-awesome
+  # custom_icons= "font/custom-font-awesome"
+
+  # Optional disabling of external fonts.
+  disableFonts = false
+
+  dateFormat = "Jan 2, 2006"
+
+  # Contact forms can be configured in their respective data files located in "data/index/contact".
+  # Google invisible captcha can be enabled by providing a global sitekey
+  #[params.contact.captcha]
+  #  sitekey = ""
+
+  # Main menu is by default generated from front-matter settings.
+  [params.navigation]
+    # Optional brand logo used in nav stored in 'static/img/'.
+    #logo = "logo.svg"
+
+  [[languages.en.menu.main]]
+    url = "/#services"
+    name = "Services"
+    weight = 10
+
+  [[languages.en.menu.main]]
+    url = "/#contact"
+    name = "Contact"
+    weight = 30
+
+  [[languages.en.menu.main]]
+    url = "/#team"
+    name = "Team"
+    weight = 20
+
+  [[languages.en.menu.main]]
+    url = "/#timeline"
+    name = "Timeline"
+    weight = 10
+
+  # Pre- and postpended custom links for main menu.
+  [[languages.en.menu.prepend]]
+    url = "/"
+    name = "Home"
+    weight = 10
+
+  # [[languages.en.menu.postpend]]
+  #   url = "https://github.com/digitalcraftsman/hugo-agency-theme"
+  #   name = "Theme on GitHub"
+  #   weight = 20
+
+  [[languages.de.menu.prepend]]
+    url = "/"
+    name = "Startseite"
+    weight = 10
+
+  [[languages.de.menu.main]]
+    url = "/#services"
+    name = "Services"
+    weight = 10
+
+  # [[languages.de.menu.main]]
+  #   url = "/#contact"
+  #   name = "Kontakt"
+  #   weight = 30
+
+  [[languages.de.menu.main]]
+    url = "/#team"
+    name = "Über mich"
+    weight = 20
+
+  [[languages.de.menu.main]]
+    url = "/#timeline"
+    name = "Geschichte"
+    weight = 10
+
+  # [[languages.de.menu.postpend]]
+  #   url = "https://github.com/digitalcraftsman/hugo-agency-theme"
+  #   name = "Theme auf GitHub"
+  #   weight = 20
+
+  # Footer
+  [params.footer]
+    enable = true
+
+  [[languages.en.menu.social]]
+    weight = 10
+    name = "twitter"
+    pre = "<i class='fa fa-twitter'></i>"
+    url = "#"
+  [[languages.en.menu.social]]
+    weight = 20
+    name = "facebook"
+    pre = "<i class='fa fa-facebook'></i>"
+    url = "#"
+  # [[languages.en.menu.social]]
+  #   weight = 30
+  #   name = "linkedin"
+  #   pre = "<i class='fa fa-linkedin'></i>"
+    # url = "#"
+
+  # [[languages.de.menu.social]]
+  #   weight = 10
+  #   name = "twitter"
+  #   pre = "<i class='fa fa-twitter'></i>"
+  #   url = "#"
+  # [[languages.de.menu.social]]
+  #   weight = 20
+  #   name = "facebook"
+  #   pre = "<i class='fa fa-facebook'></i>"
+  #   url = "#"
+  # [[languages.de.menu.social]]
+  #   weight = 30
+  #   name = "linkedin"
+  #   pre = "<i class='fa fa-linkedin'></i>"
+  #   url = "#"
+
+  # Custom footer menu items not defined within pages.
+  #[[languages.en.menu.footer]]
+  #  weight = 10
+  #  name = "Privacy Policy"
+  #  url = "#"
+
+  #[[languages.de.menu.footer]]
+  #  weight = 10
+  #  name = "Privatsphäre"
+  #  url = "#"
+
+  # Optional piwik tracking.
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com".
+  #  domain = "www.example.com"
+  #  # Optional hash for integrity check.
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="

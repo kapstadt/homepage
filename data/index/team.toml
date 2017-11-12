@@ -1,0 +1,58 @@
++++
+#disable = false
+weight = 50
+title = "About me"
+subtitle = "     "
+lastmod = "2016-11-22"
+date = "2016-11-22"
+
+[style]
+  center = true
+
+# Additional explanations above the team members
+contentTop = """
+
+
+
+   """
+
+# Additional explanations below the team members
+contentBottom = """
+
+
+
+"""
+
+# Each member can also be stored as it's own data file.
+# Data files are located in 'data/index/team/team/'.
+# Assets such as images are stored in 'static/img/team/'.
+# Image size should be at least 360px*360px or the alignment might be affected.
+
+
+[[team]]
+  title = "t1nak"
+  # joined = "2015-01-01"
+  img = "tina.png"
+  # position = "Lead Designer"
+  # reportsTo = "CTO"
+  livesIn = "[Cape Town, SA](#some-maps-url)"
+  scope = [
+    "Contact me [here](tinakoziol@yahoo.de)",
+    # "Maintainer for [awesome-project](#)",
+    # "Open Source [community management](#)"
+  ]
+  [[social]]
+    # icon = "fa-twitter"
+    # link = "#"
+  [[social]]
+    icon = "fa-facebook"
+    link = "#"
+  # [[social]]
+  #   icon = "fa-linkedin"
+  #   link = "#"
+
+  content = """
+  bubbly
+  """
+
++++

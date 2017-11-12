@@ -1,0 +1,26 @@
++++
+title = "t1nak"
+# joined = "2015-01-01"
+img = "tina.png"
+# position = "Design Leitung"
+# reportsTo = "CTO"
+livesIn = "[CT, SA](#some-maps-url)"
+scope = [
+  "Schick mir eine [email](tinakoziol@yahoo.de)",
+  # "Maintainer für [Projekt XYZ](#)",
+  # "Open Source [Community Verwaltung](#)"
+]
+# [[social]]
+#   icon = "fa-twitter"
+#   link = "#"
+# [[social]]
+#   icon = "fa-facebook"
+#   link = "#"
+# [[social]]
+#   icon = "fa-linkedin"
+#   link = "#"
+
+content = """
+
+"""
++++
