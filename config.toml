@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://kapstadt.github.io/de"
+baseurl = "https://kapstadt.github.io/"
 
 title = "Kapstadt"
 theme = "hugo-agency-theme"
